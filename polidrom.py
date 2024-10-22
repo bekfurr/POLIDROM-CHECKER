@@ -9,6 +9,10 @@ def polidrom():
     if soz == b:
         label2 = Label(win, text="Soz polidrom", foreground="White", background="Green"  )
         label2.grid(row=2, column=0, columnspan=2)
+    elif soz == "":
+        label2 = Label(win, text="MAYDON BO^SH", foreground="White", background="Red"  )
+        label2.grid(row=2, column=0, columnspan=2)
+    
     else:
         label2 = Label(win, text="Soz polidrom emas", foreground="White", background="Red"  )
         label2.grid(row=2, column=0, columnspan=2)
